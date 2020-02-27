@@ -2,8 +2,7 @@ package com.eks.lazyfragment;
 
 import android.view.View;
 
-import com.eks.ekslazyfragment.R;
-import com.eks.lazyfragment.lazy.BaseLazyFragment;
+import com.eks.lazyfragment.R;
 import com.eks.lazyfragment.lazy.BaseLazyFragment;
 
 import org.jetbrains.annotations.NotNull;
