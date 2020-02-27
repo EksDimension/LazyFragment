@@ -9,7 +9,6 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import com.eks.lazyfragment.R;
 import com.google.android.material.tabs.TabLayout;
 
 public class MainActivity extends AppCompatActivity {
@@ -30,7 +29,8 @@ public class MainActivity extends AppCompatActivity {
                 , "B"
                 , "C"
                 , "D"
-                , "E"};
+                , "E"
+        };
         vpContainer.setAdapter(new FragmentPagerAdapter(this.getSupportFragmentManager()) {
             @Override
             public Fragment getItem(int position) {
